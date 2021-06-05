@@ -1,0 +1,21 @@
+  96  mkdir MarinaBootcamp
+   97  cd MarinaBootcamp
+   98  git clone https://github.com/Boljkovci/bootcampVezbanje.git
+   99  ls
+  100  cd bootcampVezbanje/
+  101  ls
+  102  mkdir MarinaVasovic
+  103  cd MarinaVasovic/
+  104  touch licniPodaci.txt
+  105  ls
+  106  echo "Marina, Vasovic, Vaspitac, Boljkovci" >> licniPodaci.txt
+  107  cd ..
+  108  ls
+  109  echo "itbootcamp vezba" >> vezba1.txt
+  110  git status
+  111  git add .
+  112  git status
+  113  git commit -m "git vezba"
+  114  git status
+  115  git push https://github.com/Boljkovci/bootcampVezbanje.git
+  116  history
